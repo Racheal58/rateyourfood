@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Services</title>
+<link rel="stylesheet" href="services_style.css" type="text/css">
+<script type="text/javascript">
+var image1=new Image()
+image1.src="images/unsplash/dan-gold-105699-unsplash.jpg"
+var image2=new Image()
+image1.src="images/unsplash/sharon-chen-352895-unsplash.jpg"
+var image3=new Image()
+image1.src="images/unsplash/annie-spratt-44241-unsplash.jpg"
+
+
+</script>
+</head>
+
+  <body>
+<h1>What type of food can you rate on our Website ?</h1>
+  <p>We are in partnership with different restaurant all over the world</p>
+<img src="images/unsplash/dan-gold-105699-unsplash.jpg" name="slide" >
+<script type="text/javascript">
+var step=1
+function slideit(){
+  document.images.slide.src-eval("image"+step+".src");
+  if(step<3)
+  step++;
+  else {
+    step=1;
+    setTimeout("slideit()",2000);
+  }
+}
+slideit();
+</script>
+
+
+  </body>
+
+</html>

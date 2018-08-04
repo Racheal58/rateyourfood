@@ -1,0 +1,1 @@
+My first JavaScript file and it displays at the end of the web page

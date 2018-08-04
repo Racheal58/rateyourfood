@@ -1,0 +1,98 @@
+html {
+  margin: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px; 
+}
+body {
+  background-image: url(images/dish-egg-food-54455.jpg);
+  background-size: cover ;
+  font-family: fantasy;
+  color: floralwhite;
+   background-position: center center; 
+   background-repeat: no-repeat; 
+}
+
+header {
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 22px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+li {
+  padding: 20px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero {
+  position: absolute;
+  width: 1200px;
+  bottom: 100px;
+}
+
+.change {
+  width: 330px;
+  margin: auto;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 30px;
+    margin-top: 240px;
+    top: 100px;
+}
+.btn-one {
+  text-align: center;
+  line-height: 50px;
+  font-family: "Roboto" , sans-serif;
+  border: 2px solid white;
+  height: 50px;
+  position: absolute;
+  top: 201px;
+  width: 133px;
+  left: 540px;
+}
+.btn-two{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid white;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 540px;
+  width: 133px;
+  top: 201px
+}
+
+.webtext {
+  position: absolute;
+  bottom: 10px;
+}
