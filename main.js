@@ -79,9 +79,9 @@ const newFunc = first();
 newFunc();
 
 
-const flattened = [[1, 2], [2, 3], [3, 4]].reduce{
+const flattened = [[1, 2], [2, 3], [3, 4]].reduce(
     (acc, array) => {
         console.log('array', array);
         console.log('acc', acc);
         return acc.concat(array);
-    }, []};
+    }, []);
